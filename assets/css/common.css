@@ -1,10 +1,11 @@
 .main-header{
   width: 94%;
-  height: 50px;
+  height: 60px;
   margin: 0 auto;
   border-bottom: 1px solid #f7f4e7;
   max-width: 1100px;
   text-align: center;
+  background-color:#FEFAF5;
 }
 .main-title{
   font-family: 'Red Hat Display', sans-serif;
@@ -12,13 +13,12 @@
   font-weight: 900;
   letter-spacing: 4px;
   text-align: center;
-  line-height: 1.8;
+  line-height: 2.3;
   display: inline-block;
-  margin-right: -20px;
 }
 .main-content{
   width: 100%;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .menu-trigger,
@@ -29,11 +29,12 @@
 		z-index:2;
 }
 .menu-trigger {
-  position: relative;
-    width: 20px;
-    height: 16px;
-    display: inline-block;
-    left: 32%;
+  width: 20px;
+  height: 16px;
+  display: inline-block;
+  position: fixed;
+  right: 5%;
+  top: 2.8%;
 }
 .menu-trigger span {
   position: absolute;
@@ -102,7 +103,14 @@
   letter-spacing: 6px;
   font-weight: 600;
 }
+.main-br-sp{
 
+}
+@media (min-width: 480px) {
+  .main-br-sp{
+    display: none;
+  }
+}
 @media (max-width: 480px) {
   .main-title{
     font-size: 22px;
