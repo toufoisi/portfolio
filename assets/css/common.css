@@ -1,3 +1,13 @@
+a{
+  cursor: pointer;
+}
+.main-pages{
+  font-family: 'Red Hat Display', sans-serif;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 60px;
+  background-color: #FEFAF5;
+}
 .main-header{
   width: 94%;
   height: 60px;
@@ -16,11 +26,19 @@
   line-height: 2.3;
   display: inline-block;
 }
+.main-title-link{
+   color: #000000;
+  display: block;
+}
+.main-title-link:hover{
+  color: #ED266B;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 .main-content{
   width: 100%;
   padding-top: 40px;
 }
-
 .menu-trigger,
 .menu-trigger span {
 		display: inline-block;
@@ -103,8 +121,39 @@
   letter-spacing: 6px;
   font-weight: 600;
 }
-.main-br-sp{
 
+/*ページ遷移アニメーション*/
+#page-animate::before {
+ content: '';
+ position: fixed;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: #ED266B;
+ z-index: 9999;
+ pointer-events: none;
+ right: 100%;
+ -webkit-transition: right 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+ transition: right 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+ #page-animate::after {
+ content: '';
+ position: fixed;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: #ED266B;
+ z-index: 9999;
+ pointer-events: none;
+ left: 100%;
+ -webkit-transition: left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+ transition: left 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+ #page-animate.is-slide-in::before {
+ right: 0;
+}
+ #page-animate.is-slide::after {
+ left: 0;
 }
 @media (min-width: 480px) {
   .main-br-sp{
@@ -115,5 +164,11 @@
   .main-title{
     font-size: 22px;
     line-height: 2.6 ;
+  }
+  .main-content-shorten{
+    padding-top: 0px;
+  }
+  .main-pages-change-color{
+    background-color: #ffffff;
   }
 }

@@ -1,11 +1,4 @@
 
-.main-works{
-  font-family: 'Red Hat Display', sans-serif;
-  background-color:#FEFAF5;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 60px;
-}
 .main-works-inner{
   display:flex;
   justify-content: flex-start;
@@ -77,6 +70,12 @@
 }
 .main-works-list-fp{
   background-image: url("../../assets/images/pf_fp.jpg");
+}
+.main-works-list-kdx{
+  background-image: url("../../assets/images/pf_kdx.jpg");
+}
+.main-works-list-ncon{
+  background-image: url("../../assets/images/pf_ncon.jpg");
 }
 .main-works-list-title{
   font-size: 14px;
@@ -151,6 +150,12 @@
 }
 .main-works-list-link:hover .main-works-list-fp{
     background-image: url("../../assets/images/pf_fp_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-kdx{
+    background-image: url("../../assets/images/pf_kdx_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-ncon{
+    background-image: url("../../assets/images/pf_ncon_hv.jpg");
 }
 .main-works-list-link:hover .main-works-list-tags{
   color: #ea81a6;
