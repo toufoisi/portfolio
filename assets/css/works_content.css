@@ -71,6 +71,9 @@
 .main-details-kv-ncon{
   background-image: url("../../assets/images/pf_ncon.jpg");
 }
+.main-details-kv-fp{
+  background-image: url("../../assets/images/pf_fp.jpg");
+}
 .main-details-title{
   font-size: 20px;
   font-weight: 600;
