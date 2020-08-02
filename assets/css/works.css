@@ -1,0 +1,188 @@
+
+.main-works-inner{
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px;
+}
+.main-works-list{
+  width: 32%;
+  margin-right: 2%;
+  margin-top: 26px;
+}
+.main-works-list:nth-child(3n){
+  margin-right: 0%;
+}
+.main-works-list:nth-child(-n+3){
+  margin-top: 0;
+}
+.main-works-list-image{
+  width: 100%;
+  height: 0;
+  padding-bottom: 70%;
+  background-color: #d4d4d4;
+  border-radius: 9px;
+  background-size: cover;
+}
+.main-works-list-marasy{
+  background-image: url("../../assets/images/pf_marasy.jpg");
+}
+.main-works-list-nrecruit{
+  background-image: url("../../assets/images/pf_nrecruit.jpg");
+}
+.main-works-list-intern{
+  background-image: url("../../assets/images/pf_intern.jpg");
+}
+.main-works-list-dcr{
+  background-image: url("../../assets/images/pf_dcr.jpg");
+}
+.main-works-list-haresuta{
+  background-image: url("../../assets/images/pf_haresuta.jpg");
+}
+.main-works-list-nazotoki{
+  background-image: url("../../assets/images/pf_nazotoki.jpg");
+}
+.main-works-list-nanime{
+  background-image: url("../../assets/images/pf_nanime.jpg");
+}
+.main-works-list-water{
+  background-image: url("../../assets/images/pf_water.jpg");
+}
+.main-works-list-dcs{
+  background-image: url("../../assets/images/pf_dcs.jpg");
+}
+.main-works-list-nseifuku{
+  background-image: url("../../assets/images/pf_seifuku.jpg");
+}
+.main-works-list-tokinosora{
+  background-image: url("../../assets/images/pf_tokinosora.jpg");
+}
+.main-works-list-info{
+  background-image: url("../../assets/images/pf_info.jpg");
+}
+.main-works-list-nsuitou{
+  background-image: url("../../assets/images/pf_nsuitou.jpg");
+}
+.main-works-list-poster{
+  background-image: url("../../assets/images/pf_poster.jpg");
+}
+.main-works-list-fp{
+  background-image: url("../../assets/images/pf_fp.jpg");
+}
+.main-works-list-kdx{
+  background-image: url("../../assets/images/pf_kdx.jpg");
+}
+.main-works-list-ncon{
+  background-image: url("../../assets/images/pf_ncon.jpg");
+}
+.main-works-list-title{
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.main-works-list-tags{
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #B3B3B3;
+  margin-top: 6px;
+  font-weight: 500;
+}
+.main-works-list-link{
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+.main-works-list-link:hover{
+  color:#ED266B;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.main-works-list-link:hover .main-works-list-image{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.main-works-list-link:hover .main-works-list-marasy{
+    background-image: url("../../assets/images/pf_marasy_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-nrecruit{
+    background-image: url("../../assets/images/pf_nrecruit_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-intern{
+    background-image: url("../../assets/images/pf_intern_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-dcr{
+    background-image: url("../../assets/images/pf_dcr_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-haresuta{
+    background-image: url("../../assets/images/pf_haresuta_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-nazotoki{
+    background-image: url("../../assets/images/pf_nazotoki_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-nanime{
+    background-image: url("../../assets/images/pf_nanime_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-water{
+    background-image: url("../../assets/images/pf_water_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-dcs{
+    background-image: url("../../assets/images/pf_dcs_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-nseifuku{
+    background-image: url("../../assets/images/pf_seifuku_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-tokinosora{
+    background-image: url("../../assets/images/pf_tokinosora_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-info{
+    background-image: url("../../assets/images/pf_info_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-nsuitou{
+    background-image: url("../../assets/images/pf_nsuitou_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-poster{
+    background-image: url("../../assets/images/pf_poster_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-fp{
+    background-image: url("../../assets/images/pf_fp_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-kdx{
+    background-image: url("../../assets/images/pf_kdx_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-ncon{
+    background-image: url("../../assets/images/pf_ncon_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-tags{
+  color: #ea81a6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media (max-width: 760px) {
+  .main-works-inner{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  .main-works-list{
+    width: 100%;
+    margin-right: 0%;
+    margin-top: 20px;
+  }
+  .main-works-list-title{
+    margin-top: 14px;
+  }
+  .main-works-list:nth-child(-n+3){
+    margin-top: 40px;
+  }
+  .main-works-list:nth-child(-n+1){
+    margin-top: 0px;
+  }
+}
+@media (max-width: 480px) {
+
+}
