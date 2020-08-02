@@ -147,7 +147,8 @@ border-bottom: 1px solid #000000;
     font-size: 14px;
   }
   .main-me::before{
-    width: 66%;
+    width: 60%;
+    top:-44px;
   }
   .main-me::after{
     width: 66%;
