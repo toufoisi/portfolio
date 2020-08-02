@@ -154,4 +154,10 @@ border-radius: 10px;
     padding: 4%;
     border-radius: 14px;
   }
+  .main-details-reference-web{
+    width: 92%;
+  }
+  .main-works-inner{
+    width: 86%;
+  }
 }
