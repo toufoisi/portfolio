@@ -74,6 +74,9 @@
 .main-details-kv-fp{
   background-image: url("../../assets/images/pf_fp.jpg");
 }
+.main-details-kv-meishi{
+  background-image: url("../../assets/images/pf_meishi.jpg");
+}
 .main-details-title{
   font-size: 20px;
   font-weight: 600;

@@ -77,6 +77,15 @@
 .main-works-list-ncon{
   background-image: url("../../assets/images/pf_ncon.jpg");
 }
+.main-works-list-meishi{
+  background-image: url("../../assets/images/pf_meishi.jpg");
+}
+.main-works-list-emag{
+  background-image: url("../../assets/images/pf_emag.jpg");
+}
+.main-works-list-keion{
+  background-image: url("../../assets/images/pf_keion.jpg");
+}
 .main-works-list-title{
   font-size: 14px;
   letter-spacing: 1.6px;
@@ -156,6 +165,15 @@
 }
 .main-works-list-link:hover .main-works-list-ncon{
     background-image: url("../../assets/images/pf_ncon_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-meishi{
+    background-image: url("../../assets/images/pf_meishi_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-emag{
+    background-image: url("../../assets/images/pf_emag_hv.jpg");
+}
+.main-works-list-link:hover .main-works-list-keion{
+    background-image: url("../../assets/images/pf_keion_hv.jpg");
 }
 .main-works-list-link:hover .main-works-list-tags{
   color: #ea81a6;
